@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form clone</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        form{
+            margin-top: 100px;
+            background-color: aliceblue;
+        }
+        .form{
+            background-color: bisque;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 50px;
+        }
+        span{
+            color: red;
+        }
+        button{
+            padding: 8px 15px;
+            font-size: 18px;
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+
+        input{
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 200px;
+            padding: 10px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="form">
+            <h1>Open Letter Maker</h1>
+            <p>All of the submissions to this form will be appedned into a  table as in the style of an open letter </p>
+            <span>*Required</span>
+        </div>
+
+
+        <div class="form">
+
+            <h2>Full Name <span>*</span></h2>
+            <p>Any text provided here will be used to create a digital signature, including hornorfics or degrees</p>
+            <input type="text" placeholder="Your Answer">
+        </div>
+
+        <div class="form">
+            <h2>Department <span>*</span></h2>
+            <input type="text" placeholder="Your Answer">
+        </div>
+        <div class="form">
+            <h2>Position</h2>
+            <input type="text" placeholder="Your Answer">
+        </div>
+
+        <button type="submit">Submit</button>
+</form>
+</body>
+</html>
