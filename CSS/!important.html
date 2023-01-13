@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!important overiding specificity</title>
+    <style>
+        body{
+            background-color: #000;
+            color: #fff;
+        }
+        h1{
+         color: blue;
+        }
+        p{
+            color: aqua !important;
+        }
+        p{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>overiding specificity</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates asperiores voluptatum vel iure delectus aperiam, odio rem consectetur? Facere fuga ea accusantium sunt doloremque eaque rem, ex aliquid officiis architecto?</p>
+</body>
+</html>
